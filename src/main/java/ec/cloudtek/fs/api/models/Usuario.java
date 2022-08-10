@@ -8,8 +8,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Table
-@Entity(name = "user")
+@Entity
+@Table(name = "user")
 public class Usuario {
 
 
